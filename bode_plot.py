@@ -10,6 +10,7 @@ denominator = [1, 2, 0]    # Similar to above but for 2nd order polynomial of de
 system = signal.TransferFunction(numerator, denominator)    
 
 # Generate Bode plot by computing frequency response of magnitude and phase
+# dumb comment
 w, mag, phase = signal.bode(system)
 
 # Magnitude Bode Plot
