@@ -6,7 +6,7 @@ from scipy import signal          # From the scipy library, just bring in the si
 
 # Accept denominator input in a distribtuted Ax^2 + Bx + C format, taking the coefficients as input
 numerator_str = input("Numerator: ")
-numerator_lst = numerator_str.split(",")
+numerator_lst = numerator_str.split(", ")
 numerator_float = [float(num) for num in numerator_lst]
 print(numerator_float)
 
