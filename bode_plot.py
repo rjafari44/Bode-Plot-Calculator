@@ -12,7 +12,7 @@ print(numerator_float)
 
 # Accept denominator input in a distribtuted Ax^2 + Bx + C format, taking the coefficients as input
 denominator_str = input("Denominator: ")
-denominator_lst = denominator_str.split(",")
+denominator_lst = denominator_str.split(", ")
 denominator_float = [float(num) for num in denominator_lst]
 print(denominator_float)
 
