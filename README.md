@@ -1,4 +1,4 @@
-# Bode-Plot-Calculator
+# Bode Plot Calculator
 #### A Python script that accepts a transfer function numerator and denominator as expressions, then graphs the Bode magnitude and phase plots. Automatically detects and displays the filter type up to 3rd order.
 
 ---
