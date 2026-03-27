@@ -29,7 +29,7 @@ pip install matplotlib numpy scipy
 ### How to Run
 
 ```bash
-python3 bode_plot.py
+./run.sh
 ```
 
 ---
